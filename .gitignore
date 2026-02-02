@@ -1,0 +1,5 @@
+/dbdata
+/dbdump
+/config
+.env
+docker-compose.yml
