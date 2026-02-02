@@ -1,0 +1,99 @@
+/* Contenedor */
+#lu-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Formulario de búsqueda */
+#lu-search-form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+
+#lu-search-form input[type="text"] {
+    padding: 6px 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#lu-search-form button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00358F;
+    color: white;
+    cursor: pointer;
+}
+
+#lu-search-form button:hover {
+    background-color: #0749bd
+;
+}
+
+/* Filtros checkboxes */
+#lu-filters {
+    margin-top: 10px;
+}
+
+#lu-filters label {
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Tabla */
+#lu-results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#lu-results th, #lu-results td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: #00358F;
+}
+
+#lu-results th {
+    background-color: #00358F;
+    color: #E6E6F5;
+}
+
+/* Filas alternas */
+#lu-results tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Paginación */
+#lu-pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#lu-pagination a {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 4px 8px;
+    border: 1px solid #00358F;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #00358F;
+}
+
+#lu-pagination a:hover {
+    background-color: #0749bd;
+    color: white;
+}
+
+#lu-pagination a.active {
+    background-color: #00358F;
+    color: white;
+    font-weight: bold;
+    pointer-events: none; /* No se puede volver a clicar la página activa */
+}
